@@ -1,12 +1,6 @@
 import React from "react";
 
-import {
-  ClerkProvider,
-  SignInButton,
-  SignedIn,
-  SignedOut,
-  UserButton,
-} from "@clerk/nextjs";
+
 import LoginButton from "./loginButton";
 import Link from "next/link";
 

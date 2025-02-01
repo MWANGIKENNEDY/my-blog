@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaSave, FaTrash } from 'react-icons/fa'
-import { FaDeleteLeft } from 'react-icons/fa6'
+
 
 const SinglePostActions = () => {
   return (
