@@ -13,8 +13,8 @@ const Comments = () => {
           placeholder="Place a comment.."
           name=""
           id=""
-          cols="30"
-          rows="3"
+          cols={30}
+          rows={3}
         ></textarea>
 
         <button className=" px-4 py-2 bg-blue-500 rounded text-white text-sm">
