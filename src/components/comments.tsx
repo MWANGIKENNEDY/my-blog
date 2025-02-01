@@ -17,7 +17,7 @@ const Comments = () => {
           rows={3}
         ></textarea>
 
-        <button className=" px-4 py-2 bg-blue-500 rounded text-white text-sm">
+        <button type="submit" className=" px-4 py-2 bg-blue-500 rounded text-white text-sm">
           Send
         </button>
       </form>
