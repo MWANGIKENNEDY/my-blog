@@ -17,9 +17,9 @@ const Desktop = () => {
        
 
             <li><Link href="/">Home</Link></li>
-            <li><Link href="/">Trending</Link></li>
-            <li><Link href="/">Most Popular</Link></li>
-            <li><Link href="/">About</Link></li>
+            <li><Link href="/posts">Trending</Link></li>
+            <li><Link href="/write">Create Post</Link></li>
+
 
           <LoginButton />
         </ul>

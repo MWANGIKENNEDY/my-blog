@@ -13,3 +13,25 @@ body {
 .animatedButton{
   animation-duration: 10000ms;
 }
+
+
+.quill{
+  border-radius: 15px;
+  overflow: hidden;
+
+}
+
+.ql-container{
+  border:none !important;
+  
+}
+.ql-editor{
+  border:none !important;
+
+  min-height: 500px;
+}
+
+.ql-toolbar{
+  border:none !important;
+}
+

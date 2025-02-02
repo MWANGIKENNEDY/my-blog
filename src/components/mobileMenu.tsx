@@ -35,20 +35,12 @@ const Mobilenav = () => {
             }`}
           >
             <ul className="space-y-4 p-4 flex flex-col items-center justify-center text-xl gap-10">
-              <li>
-                <Link href="/">Home</Link>
-              </li>
-              <li>
-                <Link href="/">Trending</Link>
-              </li>
-              <li>
-                <Link href="/">Most Popular</Link>
-              </li>
-              <li>
-                <Link href="/">About</Link>
-              </li>
+            <li onClick={() => setOpen(!open)}><Link href="/">Home</Link></li>
+            <li onClick={() => setOpen(!open)}><Link href="/posts">Trending</Link></li>
+            <li onClick={() => setOpen(!open)}><Link href="/write">Create Post</Link></li>
+          
 
-              <LoginButton />
+              <LoginButton open={open} setOpen={setOpen} />
             </ul>
           </div>
         </div>
