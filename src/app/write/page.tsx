@@ -4,7 +4,7 @@ import "react-quill-new/dist/quill.snow.css";
 import ReactQuill from "react-quill-new";
 
 const WritePostPage = () => {
-  const [value, setValue] = useState("");
+
   return (
     <div className=" space-y-6">
       <h1 className=" font-light  text-xl text-gray-600">Create a new post</h1>
@@ -45,8 +45,7 @@ const WritePostPage = () => {
         ></textarea>
         <ReactQuill
           theme="snow"
-          value={value}
-          onChange={setValue}
+        
           className=" shadow-lg"
           style={{ minHeight: "500px", background: "white ", border: "none" }}
         />
